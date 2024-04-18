@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Examen Final -->
+<!-- Développement et deploiment d'un outil de création CV – durée 3h  -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Outil de création CV</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="author" content="Akram Nasr">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- Menu :  -->
+
+        <div class="navigation-bar w-nav">
+            <div class="w-container">
+
+                <a href="index.html" aria-current="page" class="w-nav-brand w--current" aria-label="home">
+                    <div class="site-name">Akram Nasr</div>
+                </a>
+
+                <nav role="navigation" class="navigation-menu w-nav-menu">
+
+                    <a href="index.html" aria-current="page" class="navigation-link w-nav-link w--current" style="max-width: 940px;">Accueil</a>
+
+                    <a href="contact.html" class="navigation-link w-nav-link" style="max-width: 940px;">Contact</a>
+
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="post-wrapper">
+            <div class="post-content">
+                <div class="body-copy w-richtext">
+                    <h1>Contactez-nous</h1>
+                    <p>N'hésitez pas à nous contacter en utilisant le formulaire ci-dessous.</p>
+                </div>
+                <div class="form-wrapper w-form">
+                    <form id="contact-form">
+                        <label for="name">Nom :</label>
+                        <input class="text-field w-input" type="text" id="name" name="name" required>
+
+                        <label for="email">Adresse e-mail :</label>
+                        <input class="text-field w-input" type="email" id="email" name="email" required>
+
+                        <label for="message">Message :</label>
+                        <textarea class="text-field text-area w-input" id="message" name="message" required></textarea>
+
+                        <input type="submit" class="button w-button" value="Soumettre">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        </body>
+
+    </html>
+
+<script src="script.js"></script>
