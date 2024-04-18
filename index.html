@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Examen Final -->
+<!-- Développement et deploiment d'un outil de création CV – durée 3h  -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Outil de création CV</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="author" content="Akram Nasr">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- Menu :  -->
+
+    <div class="navigation-bar w-nav">
+        <div class="w-container">
+
+            <a href="" aria-current="page" class="w-nav-brand w--current" aria-label="home">
+                <div class="site-name">Akram Nasr</div>
+            </a>
+
+            <nav role="navigation" class="navigation-menu w-nav-menu">
+
+                <a href="index.html" aria-current="page" class="navigation-link w-nav-link w--current" style="max-width: 940px;">Accueil</a>
+
+                <a href="contact.html" class="navigation-link w-nav-link" style="max-width: 940px;">Contact</a>
+
+            </nav>
+
+        </div>
+    </div>
+
+    <!-- Contenu  :  -->
+
+    <div class="content-wrapper">
+        <div class="w-container">
+            <div class="w-row">
+
+                <!-- Section 1 :  -->
+                <div class="w-hidden-small w-hidden-tiny w-col w-col-3">
+                    <div class="white-wrapper">
+                        <img src="https://www.kindpng.com/picc/m/424-4243685_dr-dummy-demo-cartoon-human-face-png-transparent.png" alt="" class="circle-profile">
+                        <p class="site-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                        <div class="grey-rule"></div>
+                        <h2 class="small-heading">Éducation:</h2>
+                        <div class="feature-posts-list w-dyn-list">
+                            <div role="list" class="w-dyn-items" id="edu-posts">
+
+                                <div role="listitem" class="w-dyn-item" id="add-new-edu">
+                                    <a href="#" class="small-post-link"><img src="images/dip.png" width="25" alt=""><input id="til-edu-post" type="text"></a>
+                                    <div class="post-info">
+                                        <p>Date : <input id="dtd-edu-post" type="date"></p>
+                                    </div>
+                                    <button id="btn-add-new-edu">+</button>
+                                </div>
+
+                                <div role="listitem" class="w-dyn-item">
+                                    <a href="#" class="small-post-link"><img src="images/dip.png" width="25" alt=""> Diplôme A</a>
+                                    <div class="post-info">
+                                        <p>Date : 2008-02-01</p>
+                                    </div>
+                                </div>
+                                <div role="listitem" class="w-dyn-item">
+                                    <a href="#" class="small-post-link"><img src="images/dip.png" width="25" alt=""> Diplôme B</a>
+                                    <div class="post-info">
+                                        <p>Date : 2012-02-01</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grey-rule"></div>
+                        <div class="social-link-group">
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed39811ff2c6_social-03.svg" width="25" alt=""></a>
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed1ad11ff2da_social-07.svg" width="25" alt=""></a>
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed1f5b1ff2bf_social-18.svg" width="25" alt=""></a>
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed7e751ff288_social-09.svg" width="25" alt=""></a>
+                        </div>
+                        <p class="built-with">ASY1009</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Section 2 :  -->
+                <div class="content-column w-col w-col-9">
+                    <div class="w-dyn-list">
+
+                        <h2 class="site-description">Expériences:</h2>
+
+                        <div role="list" class="w-dyn-items" id="expe-posts">
+
+
+                            <div id="add-more" role="listitem" class="w-dyn-item">
+                                <div class="post-wrapper">
+                                    <div class="post-content">
+                                        <div class="w-row">
+                                            <div class="w-col w-col-4 w-col-medium-4">
+                                                <div class="post-info">
+                                                    <p>Image : <input id="img-post" type="text"></p>
+                                                </div>
+                                            </div>
+                                            <div class="w-col w-col-8 w-col-medium-8">
+                                                <a href="#" class="blog-title-link w-inline-block">
+                                                    <div class="post-info">
+                                                        <p>Titre : <input id="ti-post" type="text"></p>
+                                                    </div>
+                                                </a>
+                                                <div class="details-wrapper">
+                                                    <div class="post-info">
+                                                        <p>Date et domaine : <input id="dtd-post" type="date"></p>
+                                                    </div>
+                                                    <div class="post-info">|</div>
+                                                    <a href="#" class="post-info when-link"><input id="inf-post" type="text"></a>
+                                                </div>
+                                                <div class="post-summary-wrapper">
+                                                    <div class="post-info">
+                                                        <p>Établissement : <input id="etab-post" type="text"></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <button id="btn-add-new-exp">Ajouter</button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div role="listitem" class="w-dyn-item">
+                                <div class="post-wrapper">
+                                    <div class="post-content">
+                                        <div class="w-row">
+                                            <div class="w-col w-col-4 w-col-medium-4">
+                                                <a href="#" style="background-image:url(https://pbs.twimg.com/profile_images/582603487768346624/dr0JWrl1_400x400.png)" class="blog-image w-inline-block"></a>
+                                            </div>
+                                            <div class="w-col w-col-8 w-col-medium-8">
+                                                <a href="#" class="blog-title-link w-inline-block">
+                                                    <h2 class="blog-title">Exp. A</h2>
+                                                </a>
+                                                <div class="details-wrapper">
+                                                    <div class="post-info">2024-02-01</div>
+                                                    <div class="post-info">|</div>
+                                                    <a href="#" class="post-info when-link">Ingénierie</a>
+                                                </div>
+                                                <div class="post-summary-wrapper">
+                                                    <p class="post-summary">UQTR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div role="listitem" class="w-dyn-item">
+                                <div class="post-wrapper">
+                                    <div class="post-content">
+                                        <div class="w-row">
+                                            <div class="w-col w-col-4 w-col-medium-4">
+                                                <a href="#" style="background-image:url(https://pbs.twimg.com/profile_images/582603487768346624/dr0JWrl1_400x400.png)" class="blog-image w-inline-block"></a>
+                                            </div>
+                                            <div class="w-col w-col-8 w-col-medium-8">
+                                                <a href="#" class="blog-title-link w-inline-block">
+                                                    <h2 class="blog-title">Exp. B</h2>
+                                                </a>
+                                                <div class="details-wrapper">
+                                                    <div class="post-info">2024-02-01</div>
+                                                    <div class="post-info">|</div>
+                                                    <a href="#" class="post-info when-link">Science informatique</a>
+                                                </div>
+                                                <div class="post-summary-wrapper">
+                                                    <p class="post-summary">UQTR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+                <!-- Section Mobile responsive :  -->
+                <div class="sidebar-on-mobile">
+                    <div class="white-wrapper">
+                        <img src="https://www.kindpng.com/picc/m/424-4243685_dr-dummy-demo-cartoon-human-face-png-transparent.png" alt="" class="circle-profile">
+                        <p class="site-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                        <div class="grey-rule"></div>
+                        <h2 class="small-heading">Éducation:</h2>
+                        <div class="feature-posts-list w-dyn-list">
+                            <div role="list" class="w-dyn-items" id="edu-posts-mobile">
+
+                            </div>
+                        </div>
+                        <div class="grey-rule"></div>
+                        <div class="social-link-group">
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed39811ff2c6_social-03.svg" width="25" alt=""></a>
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed1ad11ff2da_social-07.svg" width="25" alt=""></a>
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed1f5b1ff2bf_social-18.svg" width="25" alt=""></a>
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed7e751ff288_social-09.svg" width="25" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="script.js"></script>
