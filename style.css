@@ -2340,12 +2340,15 @@ figcaption {
 .navigation-link {
     margin-left: 25px;
     padding: 15px 0px;
-    color: #aaa;
+    color: #333;
     font-size: 14px;
 }
 
 .navigation-link:hover {
-    color: #333;
+    color: #b3b3b3;
+}
+.navigation-link.w--current:hover {
+    color: #b3b3b3;
 }
 
 .navigation-link.w--current {
