@@ -1,3 +1,8 @@
+
+
+
+
+
 <!DOCTYPE html>
 <html>
 
@@ -16,49 +21,142 @@
 
     <!-- Menu :  -->
 
-        <div class="navigation-bar w-nav">
-            <div class="w-container">
+    <div class="navigation-bar w-nav">
+        <div class="w-container">
 
-                <a href="index.html" aria-current="page" class="w-nav-brand w--current" aria-label="home">
-                    <div class="site-name">Akram Nasr</div>
-                </a>
+            <a href="" aria-current="page" class="w-nav-brand w--current" aria-label="home">
+                <div class="site-name">Akram Nasr</div>
+            </a>
 
-                <nav role="navigation" class="navigation-menu w-nav-menu">
+            <nav role="navigation" class="navigation-menu w-nav-menu">
 
-                    <a href="index.html" aria-current="page" class="navigation-link w-nav-link w--current" style="max-width: 940px;">Accueil</a>
+                <a href="index.html" aria-current="page" class="navigation-link w-nav-link w--current" style="max-width: 940px;">Accueil</a>
 
-                    <a href="contact.html" class="navigation-link w-nav-link" style="max-width: 940px;">Contact</a>
+                <a href="contact.html" class="navigation-link w-nav-link" style="max-width: 940px;">Contact</a>
 
-                </nav>
+            </nav>
+
+        </div>
+    </div>
+
+    <!-- Contenu  :  -->
+
+    <div class="content-wrapper">
+        <div class="w-container">
+            <div class="w-row">
+
+                <!-- Section 1 :  -->
+                <div class="w-hidden-small w-hidden-tiny w-col w-col-3">
+                    <div class="white-wrapper">
+                        <img src="https://www.kindpng.com/picc/m/424-4243685_dr-dummy-demo-cartoon-human-face-png-transparent.png" alt="" class="circle-profile">
+                        <p class="site-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                        <div class="grey-rule"></div>
+                        <h2 class="small-heading">Éducation:</h2>
+                        <div class="feature-posts-list w-dyn-list">
+                            <div role="list" class="w-dyn-items" id="edu-posts">
+
+                                <div role="listitem" class="w-dyn-item" id="add-new-edu">
+                                    <a href="#" class="small-post-link"><img src="images/dip.png" width="25" alt=""><input id="til-edu-post" type="text"></a>
+                                    <div class="post-info">
+                                        <p>Date : <input id="dtd-edu-post" type="date"></p>
+                                    </div>
+                                    <button id="btn-add-new-edu">+</button>
+                                </div>
+
+                                <div role="listitem" class="w-dyn-item">
+                                    <a href="#" class="small-post-link"><img src="images/dip.png" width="25" alt=""> Diplôme A</a>
+                                    <div class="post-info">
+                                        <p>Date : 2008-02-01</p>
+                                    </div>
+                                </div>
+                                <div role="listitem" class="w-dyn-item">
+                                    <a href="#" class="small-post-link"><img src="images/dip.png" width="25" alt=""> Diplôme B</a>
+                                    <div class="post-info">
+                                        <p>Date : 2012-02-01</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grey-rule"></div>
+                        <div class="social-link-group">
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed39811ff2c6_social-03.svg" width="25" alt=""></a>
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed1ad11ff2da_social-07.svg" width="25" alt=""></a>
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed1f5b1ff2bf_social-18.svg" width="25" alt=""></a>
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed7e751ff288_social-09.svg" width="25" alt=""></a>
+                        </div>
+                        <p class="built-with">ASY1009</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Section 2 :  -->
+                <div class="content-column w-col w-col-9">
+                    <div class="w-dyn-list">
+
+
+                        <div role="list" class="w-dyn-items" id="expe-posts">
+
+                                    <div class="post-content">
+                                        <div class="post-wrapper">
+                                            <div class="post-content">
+                                                <div class="body-copy w-richtext">
+                                                    <h1>Contactez-nous</h1>
+                                                    <p>N'hésitez pas à nous contacter en utilisant le formulaire ci-dessous.</p>
+                                                </div>
+                                                <div class="form-wrapper w-form">
+                                                    <form id="contact-form">
+                                                        <label for="name">Nom :</label>
+                                                        <input class="text-field w-input" type="text" id="name" name="name" required>
+
+                                                        <label for="email">Adresse e-mail :</label>
+                                                        <input class="text-field w-input" type="email" id="email" name="email" required>
+
+                                                        <label for="message">Message :</label>
+                                                        <textarea class="text-field text-area w-input" id="message" name="message" required></textarea>
+
+                                                        <input type="submit" class="button w-button" value="Soumettre">
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Section Mobile responsive :  -->
+                <div class="sidebar-on-mobile">
+                    <div class="white-wrapper">
+                        <img src="https://www.kindpng.com/picc/m/424-4243685_dr-dummy-demo-cartoon-human-face-png-transparent.png" alt="" class="circle-profile">
+                        <p class="site-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                        <div class="grey-rule"></div>
+                        <h2 class="small-heading">Éducation:</h2>
+                        <div class="feature-posts-list w-dyn-list">
+                            <div role="list" class="w-dyn-items" id="edu-posts-mobile">
+
+                            </div>
+                        </div>
+                        <div class="grey-rule"></div>
+                        <div class="social-link-group">
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed39811ff2c6_social-03.svg" width="25" alt=""></a>
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed1ad11ff2da_social-07.svg" width="25" alt=""></a>
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed1f5b1ff2bf_social-18.svg" width="25" alt=""></a>
+                            <a href="#" class="social-icon-link w-inline-block"><img src="images/5e4b1a54e48aed7e751ff288_social-09.svg" width="25" alt=""></a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
+    </div>
 
-        <div class="post-wrapper">
-            <div class="post-content">
-                <div class="body-copy w-richtext">
-                    <h1>Contactez-nous</h1>
-                    <p>N'hésitez pas à nous contacter en utilisant le formulaire ci-dessous.</p>
-                </div>
-                <div class="form-wrapper w-form">
-                    <form id="contact-form">
-                        <label for="name">Nom :</label>
-                        <input class="text-field w-input" type="text" id="name" name="name" required>
+</body>
 
-                        <label for="email">Adresse e-mail :</label>
-                        <input class="text-field w-input" type="email" id="email" name="email" required>
-
-                        <label for="message">Message :</label>
-                        <textarea class="text-field text-area w-input" id="message" name="message" required></textarea>
-
-                        <input type="submit" class="button w-button" value="Soumettre">
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        </body>
-
-    </html>
+</html>
 
 <script src="script.js"></script>
+

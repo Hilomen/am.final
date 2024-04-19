@@ -2490,10 +2490,14 @@ figcaption {
 }
 
 .post-wrapper {
-    margin-bottom: 30px;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
+    margin-bottom: 35px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+    border: 1px solid rgba(238, 225, 225, 0.52);
 }
 
 .blog-image {
@@ -2624,9 +2628,12 @@ figcaption {
 
 .white-wrapper {
     padding: 20px;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+    border: 1px solid rgba(238, 225, 225, 0.52);
 }
 
 .circle-profile {
