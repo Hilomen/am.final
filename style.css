@@ -2714,9 +2714,16 @@ figcaption {
     .site-name {
         margin-top: 13px;
     }
-    .post-wrapper {
-        margin-bottom: 20px;
-    }
+.post-wrapper {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+    border: 1px solid rgba(238, 225, 225, 0.52);
+}
     .blog-image {
         height: 140px;
     }
@@ -2725,6 +2732,12 @@ figcaption {
     }
     .white-wrapper {
         padding: 14px;
+        background: rgba(255, 255, 255, 0.52);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(8.9px);
+        -webkit-backdrop-filter: blur(8.9px);
+        border: 1px solid rgba(238, 225, 225, 0.52);
     }
     .menu-button {
         padding: 15px;
@@ -2741,53 +2754,57 @@ figcaption {
 }
 
 
-
 @media screen and (max-width: 767px) {
-    .navigation-bar {
-        padding-top: 10px;
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    .grey-rule {
-        margin-top: 21px;
-        margin-bottom: 21px;
-    }
-    .built-with {
-        margin-bottom: 0px;
-    }
-    .post-wrapper {
-        margin-bottom: 20px;
-        margin-left: 0px;
-    }
-    .blog-image {
-        margin-right: 0px;
-        margin-bottom: 20px;
-    }
-    .post-content {
-        padding: 20px;
-    }
-    .button-wrapper {
+    .navigation-link {
         text-align: center;
     }
-    .content-wrapper {
-        width: 100%;
-        margin-left: 0px;
-        padding: 20px 10px;
+    .navigation-bar {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
-    .blog-title {
-        font-size: 27px;
-        line-height: 36px;
+    .navigation-menu {
+        border-bottom: 1px solid #ddd;
+        background-color: #fff;
+    }
+    .site-name {
+        margin-top: 13px;
+    }
+.post-wrapper {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+    border: 1px solid rgba(238, 225, 225, 0.52);
+}
+    .blog-image {
+        height: 140px;
+    }
+    .content-wrapper {
+        padding: 20px;
     }
     .white-wrapper {
-        margin-top: 20px;
-        padding: 34px;
+        padding: 14px;
+        background: rgba(255, 255, 255, 0.52);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(8.9px);
+        -webkit-backdrop-filter: blur(8.9px);
+        border: 1px solid rgba(238, 225, 225, 0.52);
+    }
+    .menu-button {
+        padding: 15px;
+    }
+    .white-bg-heading {
+        margin-bottom: 20px;
+    }
+    .content-column {
+        padding-left: 10px;
     }
     .blog-page-image {
-        height: 220px;
-    }
-    .sidebar-on-mobile {
-        display: block;
-        padding-top: 0px;
+        height: 240px;
     }
 }
 
@@ -2805,6 +2822,12 @@ figcaption {
     }
     .white-wrapper {
         padding: 20px;
+        background: rgba(255, 255, 255, 0.52);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(8.9px);
+        -webkit-backdrop-filter: blur(8.9px);
+        border: 1px solid rgba(238, 225, 225, 0.52);
     }
     .blog-page-image {
         height: 210px;
