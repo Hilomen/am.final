@@ -5,7 +5,11 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
+    background-image: url('images/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 article,
@@ -2735,6 +2739,8 @@ figcaption {
         height: 240px;
     }
 }
+
+
 
 @media screen and (max-width: 767px) {
     .navigation-bar {

@@ -52,7 +52,7 @@ addNewExpBtn.addEventListener('click', function() {
             <div class="post-content">
                 <div class="w-row">
                     <div class="w-col w-col-4 w-col-medium-4">
-                        <a href="#" style="background-image:url('${imgValue}');" class="blog-image w-inline-block"></a>
+                    <a href="#" style="background-image:url(https://pbs.twimg.com/profile_images/582603487768346624/dr0JWrl1_400x400.png)" class="blog-image w-inline-block"></a>
                     </div>
                     <div class="w-col w-col-8 w-col-medium-8">
                         <a href="#" class="blog-title-link w-inline-block">
